@@ -21,3 +21,7 @@ npm i -g @nestjs/cli
 
 1. [ดาวน์โหลดตัวติดตั้งโปรแกรม PostMan จากที่นี่](https://www.postman.com/) 
 2. ติดตั้ง และสร้าง Account ให้เรียบร้อย
+
+## 4. หากมีการใช้งาน Docker 
+
+ให้ไป[ดูวิธีติดตั้ง Docker for Desktop ได้จากที่นี่](https://github.com/teerasej/docker-handbook/blob/master/setup.md) 
