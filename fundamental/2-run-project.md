@@ -28,5 +28,5 @@ npm run start:dev
 หรือ ถ้าใครใช้ yarn
 
 ```
-npm run start:dev
+yarn run start:dev
 ```
