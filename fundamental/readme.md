@@ -1,8 +1,8 @@
 
 # Fundamental
 
-1. [สร้างโปรเจค](../workshop/member-app/1-create-project.md)
-2. [ทดสอบรันโปรเจคแบบธรรมดา และ auto-reload](../workshop/member-app/2-run-project.md)
+1. [สร้างโปรเจค](1-create-project.md)
+2. [ทดสอบรันโปรเจคแบบธรรมดา และ auto-reload](2-run-project.md)
 
 ## The Decorator
 
