@@ -1,6 +1,28 @@
 
 # Docker Deployment
 
+## โปรเจค Web API สำหรับใช้ทดสอบ
+
+- เราสามารถ clone โปรเจค Web API ที่พร้อมสำหรับการ deploy มาใช้งานได้จากด้านล่าง
+- ดู Route ต่างๆ ได้จาก **readme.md**
+
+### แบบทำงานกับฐานข้อมูล MongoDB
+
+- ต้องมีฐานข้อมูล MongoDB ทำงานอยู่ในเครื่อง
+
+```
+git clone -b create-signup-route https://github.com/teerasej/nestjs-member-api/
+```
+
+### แบบมี Email/Password Authentication และ JWT 
+
+- ต้องมีฐานข้อมูล MongoDB ทำงานอยู่ในเครื่อง
+
+```
+git clone -b finish-jwt-guard https://github.com/teerasej/nestjs-member-api/
+```
+
+
 ## ใช้งาน `.dockerignore` เพื่อให้ docker ละเว้นการทำงานกับไฟล์ที่ไม่ต้องการ 
 
 ในการ copy ไฟล์จากโปรเจค ไปไว้ใน Image เราสามารถกำหนดรายการของ directory หรือไฟล์ที่ไม่ต้องการให้ docker ทำงานด้วย ผ่านไฟล์ `.dockerignore`
