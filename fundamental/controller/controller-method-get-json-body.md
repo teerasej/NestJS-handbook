@@ -49,6 +49,39 @@ export class AppController {
 
 และเราสามารถนำมาประยุกต์ใช้กับ DTO ได้ด้วย
 
+
+### วิธีติดตั้ง และตั้งค่า
+
+ก่อนอื่นต้องติดตั้ง
+
+```
+npm i class-validator
+npm i class-transformer
+```
+
+เพิ่มการใช้งาน `ValidationPipe` ใน `main.ts`
+
+```ts
+// main.ts
+
+import { ValidationPipe } from '@nestjs/common';
+import { NestFactory } from '@nestjs/core';
+import { AppModule } from './app.module';
+
+async function bootstrap() {
+  const app = await NestFactory.create(AppModule);
+
+  // เพิ่มส่วนนี้
+  app.useGlobalPipes(new ValidationPipe())
+  
+  await app.listen(3000);
+}
+bootstrap();
+
+```
+
+### วิธีกำหนดใช้งาน Decorator กับ Property ของ Class
+
 ```ts
 import { IsEmail, IsNotEmpty } from 'class-validator'
 
