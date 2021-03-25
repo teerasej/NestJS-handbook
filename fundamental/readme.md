@@ -22,3 +22,8 @@
 
 8. [การสร้าง Service](service/create-service.md) 
 9. [การเรียกใช้ Service ใน Controller](service/service-inject-to-controller.md)
+
+
+## Module
+
+1.  [การสร้าง Module](module/create-module.md)
